@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('111') {
+            steps {
+                echo '00000'
+            }
+        }
+        stage('2222') {
+            steps {
+                echo '11111'
+            }
+        }
+        stage('3333') {
+            steps {
+                echo '22222'
+            }
+        }
+        stage('this') {
+            steps {
+                echo 'this credit goes to durga'
+            }
+        }
+    }
+}
